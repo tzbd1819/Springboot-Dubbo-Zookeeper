@@ -8,6 +8,8 @@
 ### 方案一：Spring Cloud Netflix
 Spring Cloud Netflix是Spring家族推出一款微服务框架，它作为 Java开发的微服务框架，可以配合Spring Boot来进行快速开发，可以实现快速开发、持续交付和持续部署。Spring Cloud 有着非常多的组件，覆盖了微服务的许多方面，在Netflix、 Pivotal 两大公司的推动下也变得越来越完善。是市面上很多互联网公司也在使用的微服务方案，下图是Spring Cloud  微服务框架整体组件架构图。
 
+![Image](img/Spring_Cloud.png)
+
 #### 图中组件： 
   APP、Admin、Mobile代表不同机器上的客户端 
   Zuul：它是微服务的Gateway，也就是网关，主要的功能是网络路由。不同客户端需要调用后端系统，将统一从这个网关入口进入，通过网关转发请求给到相应的服务。
